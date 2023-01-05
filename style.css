@@ -1,0 +1,186 @@
+body{
+  margin: 0;
+  padding: 0;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  padding-top: 30px;
+}
+nav a{
+font-size: 20px;
+color: black;
+text-decoration: none;
+justify-content: space-between;
+margin: 30px 5px;
+}
+nav{
+    float: right;
+    }
+.top-container{
+  display: flex;
+  flex-direction: row;
+  height: 936px;
+}
+.firstdiv{
+  /* height: 936px; */
+  float: left;
+  width: 40%;
+  padding: 86px 66px;
+  background-color: #32B8B7;
+
+}
+.firstdiv-content{
+  border: 1px solid grey;
+background-color: white;
+padding: 54px 44px 80px 44px;
+width: 80%;
+}
+.firstdiv h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.seconddiv{
+  float: right;
+  width:60%;
+  align-items: center;
+  justify-content: space-around;
+  background: #439393;
+  overflow-y: scroll;
+}
+.seconddiv .row1{
+  height:
+}
+.seconddiv img{
+  width: 255px;
+margin-top: 0px;
+height: 150px;
+margin: 6px 10px 0px 15px;
+}
+.seconddiv h4{
+  margin-top: 0;
+}
+.seconddiv p{
+  font-size: 14px;
+  line-height: 1;
+  width:87%;
+font-weight: bold;
+}
+.seconddiv h6{
+  font-size: 14px;
+  line-height: 0;
+  font-weight: lighter;
+}
+.seconddiv para2{
+margin-left: 20px;
+}
+.seconddiv .day12 .row1 span icon{
+  font-size: 10px;
+}
+.seconddiv .day12{
+  display: flex;
+  /* float: right; */
+  flex-direction: row;
+  align-items: center;
+}
+.seconddiv .day12 .row1{
+  width: 316px;
+  height: 278px;
+  background: white;
+ }
+.seconddiv .day12 .day1{
+margin: 20px 0px 10px 20px;
+padding-left: 15px;
+padding-bottom: 20px;
+}
+
+.seconddiv .day12 .day2{
+margin: 25px 0px 10px 20px;
+padding-left: 15px;
+padding-bottom: 20px;
+}
+
+.seconddiv .day34{
+  display: flex;
+  flex-direction: row;
+}
+.seconddiv .day34 .row2{
+  width: 316px;
+  height: 278px;
+  background: white;
+}
+.seconddiv .day34 .day3{
+margin: 25px 0px 10px 20px;
+padding-left: 15px;
+padding-bottom: 20px;
+}
+.seconddiv .day34 .day4{
+margin: 25px 0px 10px 20px;
+padding-left: 15px;
+padding-bottom: 20px;
+}
+.seconddiv .day56{
+  display: flex;
+  /* float: right; */
+  flex-direction: row;
+}
+.seconddiv .day56 .row3{
+  width: 316px;
+  height: 278px;
+  background: white;
+}
+.seconddiv .day56 .day5{
+margin: 25px 0px 10px 20px;
+padding-left: 15px;
+padding-bottom: 20px;
+}
+.seconddiv .day56 .day6{
+margin: 25px 0px 10px 20px;
+padding-left: 15px;
+padding-bottom: 20px;
+}
+
+
+  /* ::-webkit-scrollbar {
+    width: 2.0px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #439393;
+    border-radius: 10px;
+  }
+
+ :-webkit-scrollbar-thumb:hover {
+    background: white;
+  } */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer .content1{
+  margin-left: 25px;
+  width: 50%;
+  font-weight: bold;
+}
+
+.footer .content2{
+  float: right;
+  margin-right:25px;
+  margin-left: 35px;
+  width: 50%;
+  font-weight: bold;
+}
+/* .scrollbar {
+  /* width: 10px;
+  height: px; */
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
+} */
